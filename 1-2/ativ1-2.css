@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(90, 88, 88, 0.945);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.part1 {
+    float: left;
+    background-color: rgb(223, 223, 223);
+    width: 500px;
+    height: 600px;
+    margin: 10px;
+    position: relative;
+}
+
+.part2 {
+    float: right;
+    background-color: rgb(223, 223, 223);
+    width: 500px;
+    height: 1000px;
+    margin: 40px;
+    position: relative;
+}
+
+ul, ol {
+    font-size: 25px;
+    line-height: 1.3em;
+    font-family: 'Hina Mincho', serif;
+}
+
+h1 {
+    font-size: 3vw;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Source Code Pro', monospace;
+}
+
+span {
+    text-decoration: line-through;
+}
+
+#sub4 {
+    position: absolute;
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+}
+
+#sub1 {
+    position: absolute;
+    border: rgb(197, 110, 94) solid 2px;
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+}
+
+.text1 {
+    margin: 10px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+#sub2 {
+    width: 100%;
+    height: 8vh;
+    border: rgb(197, 110, 94) solid 2px;
+    background-color: gray;
+    text-align: center;
+    line-height: 30px;
+}
+
+.text2 {
+ margin: 20px;
+ padding: 10px;
+}
+
+#sub3 {
+   width: 100%;
+   height: 8vh;
+   border: rgb(197, 110, 94) solid 2px;
+   background-color: gray;
+   text-align: center;
+   line-height: 30px;
+}
+
+.text3 {
+    margin: 20px;
+    padding: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    background-color: rgba(135, 130, 145, 0.767);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    line-height: 20px;
+    border-radius: 15%;
+    opacity: 0.7;
+}
+span {
+    text-decoration: line-through;
+}
+img{
+    width: 350px;
+    border-radius: 50%;
+    border: rgb(197, 110, 94) solid 3px;
+
+}
+#space{
+    letter-spacing: 1.3em;
+}
